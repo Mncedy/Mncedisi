@@ -1,0 +1,322 @@
+/* Globals */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #252627;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+h2 {
+  background: linear-gradient(to right, purple, red);
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  width: 50%;
+  color: var(--mainGrey);
+}
+#h2Tag,
+#skill {
+  background: var(--siteGreen);
+}
+.p1,
+.h33,
+#pTag {
+  color: var(--mainGrey);
+}
+p,
+h3 {
+  color: var(--mainRed);
+  margin: 10px;
+  padding: 5px;
+  font-size: 20px;
+}
+h4 {
+  padding: 2rem;
+  color: var(--mainGrey);
+}
+
+/* root elements*/
+:root {
+  --mainColor: #616161;
+  --mainTransition: all 0.3s linear;
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --darkGrey: #cfcfcf;
+  --mainSpacing: 3px;
+  --mainRed: #8d0e0e;
+  --siteGreen: #76c1d4;
+  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.btn-download {
+  display: inline-block;
+  text-decoration: double;
+  letter-spacing: var(--mainSpacing);
+  color: var(--mainGrey);
+  background: var(--mainRed);
+  padding: 0.4rem 0.9rem;
+  border: 3px solid var(--mainBlack);
+  transition: var(--mainTransition);
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: var(--darkShadow);
+}
+.btn-download:hover {
+  background: transparent;
+  color: var(--mainRed);
+}
+span {
+  padding: 2rem;
+  text-transform: capitalize;
+  color: var(--siteGreen);
+  text-transform: inherit;
+}
+/* End of Global */
+
+/* NavBar */
+nav {
+  background: #76c1d4;
+  height: 80px;
+  border-bottom: 2px solid var(--mainRed);
+}
+.navBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.75rem 2rem;
+  z-index: 1;
+}
+.nav-head {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: var(--darkShadow);
+  border-radius: 15px;
+}
+.nav-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.nav-icon {
+  font-size: 1.5rem;
+  color: var(--mainRed);
+}
+.nav-icon:hover {
+  font-size: 4rem;
+}
+.navLink {
+  height: 0;
+  overflow: hidden;
+  transition: var(--mainTransition);
+  box-shadow: var(--darkShadow);
+  list-style: none;
+  border-radius: 15px;
+}
+.navLink a {
+  display: block;
+  text-decoration: none;
+  padding: 1rem 0;
+  color: var(--mainRed);
+  transition: var(--mainTransition);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: var(--mainSpacing);
+}
+.navLink a:hover {
+  color: var(--mainGrey);
+}
+.showNav {
+  height: 100px;
+}
+@media screen and (min-width: 768px) {
+  .nav-btn {
+    display: none;
+  }
+  .nav-center {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+  }
+  .navLink {
+    height: auto;
+    display: flex;
+    margin-left: 4rem;
+  }
+  .navLink a {
+    margin: 0 1rem;
+    padding: 0.5rem 0;
+  }
+}
+/* End of NavBar */
+/* Theme */
+.defaultTheme,
+.defaultPage {
+  min-height: calc(100vh - 66px);
+  background: url("./images/drakensberg.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.defaultPage {
+  background: var(--darkGrey);
+  min-height: 80vh;
+}
+/* End of Theme */
+
+/* Banner */
+.banner {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+  color: var(--mainGrey);
+  padding: 2rem 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+  border-left: 5px solid var(--mainRed);
+}
+.banner h3 {
+  font-size: 1.7rem;
+}
+.banner h1 {
+  font-size: 2.5rem;
+}
+.banner div {
+  width: 18rem;
+  height: 5px;
+  background: linear-gradient(to left, red, green);
+  margin: 1.7rem auto;
+}
+.banner p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 576px) {
+  .banner {
+    padding: 2rem 3rem;
+  }
+  .banner h1 {
+    font-size: 3rem;
+  }
+  .banner h3 {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .banner {
+    padding: 2rem 6rem;
+  }
+  .banner h1 {
+    font-size: 4rem;
+  }
+  .banner h3 {
+    font-size: 3rem;
+  }
+}
+/* End of Banner */
+
+/* Work */
+.work {
+  background: var(--darkGrey);
+  text-align: center;
+}
+/* Project */
+.project-container {
+  display: flex;
+  justify-content: space-between;
+  min-height: calc(100vh - 66px);
+  background: #a5c5ce;
+}
+.project-div1 {
+  background: var(--mainGrey);
+  margin: 5px;
+  padding: 1rem 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  row-gap: 2rem;
+  column-gap: 50%;
+  box-shadow: var(--darkShadow);
+  height: 80%;
+}
+@media screen and (max-width: 768px) {
+  .project-container {
+    padding: 2rem;
+    flex-direction: column;
+  }
+  .project-div1 {
+    grid-column-gap: 80%;
+  }
+}
+.work {
+  background: #0c94b9;
+}
+/* End of Project */
+.pic {
+  height: 240px;
+  box-shadow: var(--lightShadow);
+  border-radius: 5rem;
+  padding: 6px;
+}
+/* Contact */
+.icons {
+  font-size: 3rem;
+  color: var(--mainGrey);
+  margin: 5px;
+}
+.contact-container {
+  background: #a5c5ce;
+  height: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  grid-row-gap: 2rem;
+  grid-column-gap: 50px;
+}
+.contact-div {
+  margin-right: 20%;
+}
+@media screen and (max-width: 800px) {
+  .contact-container {
+    flex-direction: column;
+  }
+}
+hr {
+  height: 5px;
+  border-radius: 30rem;
+  width: 50%;
+  margin: auto;
+  background: linear-gradient(to left, purple, red);
+}
+.about-container {
+  background: #a5c5ce;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.about-div {
+  background: var(--mainGrey);
+}
+.edu {
+  background: var(--darkGrey);
+}
+@media screen and (max-width: 800px) {
+  .about-container {
+    flex-direction: column;
+  }
+}
