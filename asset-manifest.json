@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Mncedy/Mncedisi.git/static/css/main.c5a34066.chunk.css",
+    "main.js": "/Mncedy/Mncedisi.git/static/js/main.09d1d99f.chunk.js",
+    "main.js.map": "/Mncedy/Mncedisi.git/static/js/main.09d1d99f.chunk.js.map",
+    "runtime-main.js": "/Mncedy/Mncedisi.git/static/js/runtime-main.22a8e287.js",
+    "runtime-main.js.map": "/Mncedy/Mncedisi.git/static/js/runtime-main.22a8e287.js.map",
+    "static/js/2.1b5dbc6b.chunk.js": "/Mncedy/Mncedisi.git/static/js/2.1b5dbc6b.chunk.js",
+    "static/js/2.1b5dbc6b.chunk.js.map": "/Mncedy/Mncedisi.git/static/js/2.1b5dbc6b.chunk.js.map",
+    "index.html": "/Mncedy/Mncedisi.git/index.html",
+    "precache-manifest.4ba435432931423de1be0c3577ee4bed.js": "/Mncedy/Mncedisi.git/precache-manifest.4ba435432931423de1be0c3577ee4bed.js",
+    "service-worker.js": "/Mncedy/Mncedisi.git/service-worker.js",
+    "static/css/main.c5a34066.chunk.css.map": "/Mncedy/Mncedisi.git/static/css/main.c5a34066.chunk.css.map",
+    "static/js/2.1b5dbc6b.chunk.js.LICENSE.txt": "/Mncedy/Mncedisi.git/static/js/2.1b5dbc6b.chunk.js.LICENSE.txt",
+    "static/media/IMG_202004-011.jpg": "/Mncedy/Mncedisi.git/static/media/IMG_202004-011.719fadc6.jpg",
+    "static/media/App.css": "/Mncedy/Mncedisi.git/static/media/drakensberg.98946e7c.jpg",
+    "static/media/logo.svg": "/Mncedy/Mncedisi.git/static/media/logo.4b8e3eb2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.22a8e287.js",
+    "static/js/2.1b5dbc6b.chunk.js",
+    "static/css/main.c5a34066.chunk.css",
+    "static/js/main.09d1d99f.chunk.js"
+  ]
+}
