@@ -29,6 +29,7 @@ h2 {
 #h2Tag,
 #skill {
   background: var(--siteGreen);
+  box-shadow: var(--lightShadow);
 }
 .p1,
 .h33,
@@ -57,6 +58,7 @@ h4 {
   --mainSpacing: 3px;
   --mainRed: #8d0e0e;
   --siteGreen: #76c1d4;
+  --mediumPurple: #d0bdf4;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
@@ -300,7 +302,7 @@ hr {
   height: 5px;
   border-radius: 30rem;
   width: 50%;
-  margin: auto;
+  margin: 2rem;
   background: linear-gradient(to left, purple, red);
 }
 .about-container {
@@ -308,6 +310,18 @@ hr {
   padding: 15px;
   display: flex;
   justify-content: space-between;
+}
+#pTag1 {
+  color: var(--mainGrey);
+  box-shadow: var(--lightShadow);
+  background-color: var(--siteGreen);
+}
+span {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+ul.a {
+  list-style-type: circle;
 }
 .about-div {
   background: var(--mainGrey);
@@ -319,4 +333,11 @@ hr {
   .about-container {
     flex-direction: column;
   }
+}
+
+#pSkill {
+  background-color: var(--mediumPurple);
+  padding: 2rem;
+  margin: 1.5rem;
+  box-shadow: var(--lightShadow);
 }

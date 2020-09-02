@@ -9,7 +9,7 @@ const Contact = () => {
       <div className="contact-div">
         <h2>Mncedisi Makhaza</h2>
         <img className="pic" src={IMG} alt="Myself" />
-        <p>A short discription about me..!!</p>
+        <p>Born and raised in the valley of Bergville.</p>
       </div>
       <div className="contact-div">
         <h2>Contact Me</h2>
