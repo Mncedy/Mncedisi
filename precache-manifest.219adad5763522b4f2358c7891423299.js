@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "573b3c64b27180345137be8e6e49eb9b",
+    "revision": "126eaa23a7a97a919ff6cc610dcab782",
     "url": "/Mncedisi/index.html"
   },
   {
-    "revision": "3ec1b5ffcb0f02f4054d",
-    "url": "/Mncedisi/static/css/main.2b3927a4.chunk.css"
+    "revision": "14e1b46a460a112c8338",
+    "url": "/Mncedisi/static/css/main.ec203022.chunk.css"
   },
   {
     "revision": "80c401acda344cacfbd9",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Mncedisi/static/js/2.1b5dbc6b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3ec1b5ffcb0f02f4054d",
-    "url": "/Mncedisi/static/js/main.d9dc56d5.chunk.js"
+    "revision": "14e1b46a460a112c8338",
+    "url": "/Mncedisi/static/js/main.e70126fd.chunk.js"
   },
   {
     "revision": "45eb6241951c4947ed6f",
