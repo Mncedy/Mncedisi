@@ -33,7 +33,10 @@ const Contact = () => {
           </strong>
         </p>
         <h3>WHAT I'M DOING</h3>
-        <p id="contactP">Personal development</p>
+        <p id="contactP">
+          Currently enrolled for Advance Diploma in Information and
+          Communication Technology
+        </p>
         <h3>WHAT I HOPE TO DO</h3>
         <p id="contactP">
           Change the world like Elon musk.., or Disrupt Forbes list like Jeff
