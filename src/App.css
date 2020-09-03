@@ -34,7 +34,8 @@ h2 {
 .p1,
 .h33,
 #pTag {
-  color: var(--mainGrey);
+  color: var(--mainRed);
+  box-shadow: var(--lightShadow);
 }
 p,
 h3 {
@@ -45,7 +46,7 @@ h3 {
 }
 h4 {
   padding: 2rem;
-  color: var(--mainGrey);
+  color: var(--blueGreen);
 }
 
 /* root elements*/
@@ -59,6 +60,11 @@ h4 {
   --mainRed: #8d0e0e;
   --siteGreen: #76c1d4;
   --mediumPurple: #d0bdf4;
+  --friezePurple: #e5eaf5;
+  --blueGreen: #5cbdb9;
+  --greyBlue: #4f5f76;
+  --greySilver: #518fe0;
+  --morningSky: #cae4db;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
@@ -298,6 +304,12 @@ nav {
     flex-direction: column;
   }
 }
+#contactP {
+  box-shadow: var(--lightShadow);
+  background: var(--morningSky);
+  margin: 1rem;
+  padding: 1.5rem;
+}
 hr {
   height: 5px;
   border-radius: 30rem;
@@ -312,13 +324,18 @@ hr {
   justify-content: space-between;
 }
 #pTag1 {
-  color: var(--mainGrey);
+  color: var(--siteGreen);
   box-shadow: var(--lightShadow);
-  background-color: var(--siteGreen);
+  background-color: var(--friezePurple);
+  padding: 2rem;
+  margin: 1.5rem;
 }
 span {
   text-transform: uppercase;
   font-weight: 700;
+  padding: 2rem;
+  margin: 1.5rem;
+  color: var(--blueGreen);
 }
 ul.a {
   list-style-type: circle;
@@ -327,7 +344,7 @@ ul.a {
   background: var(--mainGrey);
 }
 .edu {
-  background: var(--darkGrey);
+  background: var(--friezePurple);
 }
 @media screen and (max-width: 800px) {
   .about-container {
@@ -336,7 +353,8 @@ ul.a {
 }
 
 #pSkill {
-  background-color: var(--mediumPurple);
+  background-color: var(--friezePurple);
+  color: var(--siteGreen);
   padding: 2rem;
   margin: 1.5rem;
   box-shadow: var(--lightShadow);
