@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Mncedisi/static/css/main.ec203022.chunk.css",
-    "main.js": "/Mncedisi/static/js/main.e70126fd.chunk.js",
-    "main.js.map": "/Mncedisi/static/js/main.e70126fd.chunk.js.map",
+    "main.css": "/Mncedisi/static/css/main.a51d4b2d.chunk.css",
+    "main.js": "/Mncedisi/static/js/main.76a6eae9.chunk.js",
+    "main.js.map": "/Mncedisi/static/js/main.76a6eae9.chunk.js.map",
     "runtime-main.js": "/Mncedisi/static/js/runtime-main.3f52ee6a.js",
     "runtime-main.js.map": "/Mncedisi/static/js/runtime-main.3f52ee6a.js.map",
     "static/js/2.1b5dbc6b.chunk.js": "/Mncedisi/static/js/2.1b5dbc6b.chunk.js",
     "static/js/2.1b5dbc6b.chunk.js.map": "/Mncedisi/static/js/2.1b5dbc6b.chunk.js.map",
     "index.html": "/Mncedisi/index.html",
-    "precache-manifest.219adad5763522b4f2358c7891423299.js": "/Mncedisi/precache-manifest.219adad5763522b4f2358c7891423299.js",
+    "precache-manifest.7d8e86f9a2d5f7680bff03c621c773c4.js": "/Mncedisi/precache-manifest.7d8e86f9a2d5f7680bff03c621c773c4.js",
     "service-worker.js": "/Mncedisi/service-worker.js",
-    "static/css/main.ec203022.chunk.css.map": "/Mncedisi/static/css/main.ec203022.chunk.css.map",
+    "static/css/main.a51d4b2d.chunk.css.map": "/Mncedisi/static/css/main.a51d4b2d.chunk.css.map",
     "static/js/2.1b5dbc6b.chunk.js.LICENSE.txt": "/Mncedisi/static/js/2.1b5dbc6b.chunk.js.LICENSE.txt",
     "static/media/IMG_202004-011.jpg": "/Mncedisi/static/media/IMG_202004-011.719fadc6.jpg",
     "static/media/App.css": "/Mncedisi/static/media/drakensberg.98946e7c.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.3f52ee6a.js",
     "static/js/2.1b5dbc6b.chunk.js",
-    "static/css/main.ec203022.chunk.css",
-    "static/js/main.e70126fd.chunk.js"
+    "static/css/main.a51d4b2d.chunk.css",
+    "static/js/main.76a6eae9.chunk.js"
   ]
 }
