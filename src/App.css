@@ -48,6 +48,17 @@ h4 {
   padding: 2rem;
   color: var(--blueGreen);
 }
+.buttons {
+  margin: 1rem;
+  padding: 0.4rem 0.9rem;
+  border: 3px solid var(--mainRed);
+  transition: var(--mainTransition);
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: var(--darkShadow);
+  background: var(--morningSky);
+}
 
 /* root elements*/
 :root {
@@ -238,28 +249,27 @@ nav {
 }
 /* End of Banner */
 
-/* Work */
-.work {
-  background: var(--darkGrey);
+/* Project */
+.project-div {
+  background: var(--mainGrey);
   text-align: center;
 }
-/* Project */
 .project-container {
   display: flex;
   justify-content: space-between;
   min-height: calc(100vh - 66px);
-  background: #a5c5ce;
+  background: var(--morningSky);
 }
 .project-div1 {
-  background: var(--mainGrey);
-  margin: 5px;
+  background: var(--mediumPurple);
+  margin: 25px;
   padding: 1rem 0.5rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
   row-gap: 2rem;
   column-gap: 50%;
   box-shadow: var(--darkShadow);
-  height: 80%;
+  height: 100%;
 }
 @media screen and (max-width: 768px) {
   .project-container {
@@ -270,9 +280,7 @@ nav {
     grid-column-gap: 80%;
   }
 }
-.work {
-  background: #0c94b9;
-}
+
 /* End of Project */
 .pic {
   height: 240px;

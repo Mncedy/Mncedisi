@@ -22,13 +22,12 @@ const Contact = () => {
           And then after I went to Mncambithi FET college, where I obtained my
           N4, N5 and N6 certification.
           <br /> Few months later I was an employee at Khethekile Mining, where
-          i worked as an Electric Drill Operator for 4 years. I was elected as a
+          I worked as an Electric Drill Operator for 4 years. I was elected as a
           safety representative for my team.
           <br /> All this has given me a new and unique perspective. Whether in
           personal matter or in projects, the same values hold true.
           <br />
           <strong>
-            {" "}
             What is the problem? And what is the solution/s for that problem.
           </strong>
         </p>
@@ -77,6 +76,27 @@ const Contact = () => {
             212 Sphiwe Zuma Avenue <br /> Glenmore <br /> Durban <br /> 4001
           </strong>
         </p>
+        <div></div>
+        <h1>Let's hang out</h1>
+        <a
+          href="https://github.com/Mncedy"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <button type="button" className="buttons">
+            Github
+          </button>
+        </a>
+        <br />
+        <a
+          href="linkedin.com/in/mncedisi-makhaza-719530b4"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <button type="button" className="buttons">
+            LinkedIn
+          </button>
+        </a>
       </div>
     </div>
   );

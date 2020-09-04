@@ -57,10 +57,10 @@ export const About = () => {
         </div>
         <div className="edu">
           <h2 id="h2Tag">Education</h2>
-          <span>
+          <h4>
             February 2017- November 2019
             <br /> • Durban University of Technology
-          </span>
+          </h4>
           <h4>
             Information and Communication Technology Diploma in Business
             Analysis
@@ -71,10 +71,10 @@ export const About = () => {
             facilitate <br /> the alignment of IT and business processes.
           </p>
           <hr></hr>
-          <span>
+          <h4>
             February 2011- June 2012
             <br /> • Mnambithi FET College
-          </span>
+          </h4>
           <h4>N6 Diploma in Financial Management</h4>
           <p id="pTag">
             Learners will demonstrate the ability to select and apply financial
@@ -87,10 +87,10 @@ export const About = () => {
           </p>
           <hr></hr>
           <h2 id="h2Tag">Working Experience</h2>
-          <span>
+          <h4>
             NOVEMBER 2012 – JANUARY 2017
             <br /> • Khethekile Mining
-          </span>
+          </h4>
           <p id="pTag">
             Designation: Electric Drill Operator • (Safety Representative)
             <br />
