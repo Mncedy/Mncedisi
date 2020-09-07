@@ -10,7 +10,7 @@ export default function Home() {
         <Banner
           title="Hello, my name is:"
           title2="Mncedisi Makhaza"
-          subtitle="Junior Business Analyst | C# | MS SQL | HTML5 | CSS3 | REACTjs"
+          subtitle="Junior Business Analyst | C# | Python | MS SQL | HTML5 | CSS3 | REACTjs"
         >
           <Link to="/" className="btn-download">
             download resume

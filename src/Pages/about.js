@@ -25,9 +25,9 @@ export const About = () => {
           <p id="pTag1">
             <strong>
               <ul>• Microsoft Office</ul>
-              <ul>• Microsoft Visio</ul>
               <ul>• Microsoft Powerpoint</ul>
               <ul>• Microsoft Power BI</ul>
+              <ul>• Microsoft Visio</ul>
               <ul>• Google Docs</ul>
               <ul>• Trello</ul>
             </strong>
@@ -55,49 +55,123 @@ export const About = () => {
             </p>
           </div>
         </div>
-        <div className="edu">
-          <h2 id="h2Tag">Education</h2>
-          <h4>
-            February 2017- November 2019
-            <br /> • Durban University of Technology
-          </h4>
-          <h4>
-            Information and Communication Technology Diploma in Business
-            Analysis
-          </h4>
-          <p id="pTag">
-            Furthermore, they will be able to analyse business
-            <br /> environments and create specifications for ICT solutions to
-            facilitate <br /> the alignment of IT and business processes.
-          </p>
-          <hr></hr>
-          <h4>
-            February 2011- June 2012
-            <br /> • Mnambithi FET College
-          </h4>
-          <h4>N6 Diploma in Financial Management</h4>
-          <p id="pTag">
-            Learners will demonstrate the ability to select and apply financial
-            <br />
-            management methods, procedures or techniques within the business
-            environment,
-            <br /> the basic legal aspects of a business as well as managerial
-            skills. The programme reflects
-            <br /> on the needs of the business sector
-          </p>
-          <hr></hr>
-          <h2 id="h2Tag">Working Experience</h2>
-          <h4>
-            NOVEMBER 2012 – JANUARY 2017
-            <br /> • Khethekile Mining
-          </h4>
-          <p id="pTag">
-            Designation: Electric Drill Operator • (Safety Representative)
-            <br />
-            Reference: Jessica Leroux
-            <br /> Phone: (+27) 82 658 5419
-          </p>
-        </div>
+      </div>
+      <div className="edu">
+        <h2 id="h2Tag">Education</h2>
+        <h4 style={{ color: "red" }}>Tertiary Education</h4>
+        <h4>
+          Tertiary: Durban University of Technology.
+          <br />
+          Course duration: February 2020- December 2020.
+          <br /> Certification: Advance Diploma in Information and Communication
+          Technology(ICT).
+          <br /> Status: Complete <input type="checkbox" /> | Inprogress{" "}
+          <input type="checkbox" checked="checked" /> | Incomplete{" "}
+          <input type="checkbox" />
+        </h4>
+        <p id="pTag">
+          This programme is designed to prepare graduates for the IT industry or
+          for postgraduate study through the deepening of their knowledge and
+          understanding of theories, methodologies and practices within the
+          field of IT and research.
+          <h3 style={{ color: "#518fe0" }}>Key Modules</h3>
+          <ul>
+            <strong>
+              • Applied Mathematics for ComputingA(Prob ability & Statistic
+            </strong>
+          </ul>
+          <ul>
+            <strong>
+              • Applied Mathematics for ComputingB(Discrete Structures & Linear
+              Algebra
+            </strong>
+          </ul>
+          <ul>
+            <strong>• Data Structures</strong>
+          </ul>
+          <ul>
+            <strong>• Business Intelligence III</strong>
+          </ul>
+          <ul>
+            <strong>• Machine Intelligence III</strong>
+          </ul>
+          <ul>
+            <strong>• Research skills</strong>
+          </ul>
+        </p>
+        <h4>
+          Tertiary: Durban University of Technology.
+          <br />
+          Course duration: February 2017- November 2019.
+          <br /> Certification: Diploma in Information and Communication
+          Technology Diploma in Business Analysis.
+          <br /> Status: Complete <input type="checkbox" checked="checked" /> |
+          Inprogress <input type="checkbox" /> | Incomplete{" "}
+          <input type="checkbox" />
+        </h4>
+        <p id="pTag">
+          The purpose of the diploma is to provide a professional, vocational or
+          career focused qualification for the ICT industry.
+          <br /> The knowledge emphasizes general principles and applications.
+          Furthermore,
+          <br /> the diploma will develop students who can demonstrate focused
+          knowledge and skills in Business Analysis and use Information and
+          Communications Technology (ICT) in industry to solve business
+          problems.
+          <br /> Furthermore, they will be able to analyse business environments
+          and create specifications for ICT solutions to facilitate the
+          alignment of IT and business processes.
+          <h3 style={{ color: "#518fe0" }}>Key Modules</h3>
+          <ul>
+            <strong>• Applications Development (C#)</strong>
+          </ul>
+          <ul>
+            <strong>• Business Analysis</strong>
+          </ul>
+          <ul>
+            <strong>• Business Analysis Project</strong>
+          </ul>
+          <ul>
+            <strong>• Business Information Systems</strong>
+          </ul>
+          <ul>
+            <strong>• Information Management</strong>
+          </ul>
+          <ul>
+            <strong>• IT project Management</strong>
+          </ul>
+        </p>
+        <hr></hr>
+        <h4>
+          Tertiary: Mnambithi FET College.
+          <br />
+          Course duration: February 2011- June 2012.
+          <br />
+          Certification: N6 Diploma in Financial Management.
+          <br /> Status: Complete <input type="checkbox" checked="checked" /> |
+          Inprogress <input type="checkbox" /> | Incomplete{" "}
+          <input type="checkbox" />
+        </h4>
+        <p id="pTag">
+          Learners will demonstrate the ability to select and apply financial
+          management methods, procedures or techniques within the business
+          environment, the basic legal aspects of a business as well as
+          managerial skills. The programme reflects on the needs of the business
+          sector.
+        </p>
+        <hr></hr>
+        <h2 id="h2Tag">Working Experience</h2>
+        <h4>
+          Company: Khethekile Mining PTY (LTD).
+          <br />
+          Duration: NOVEMBER 2012 – JANUARY 2017
+        </h4>
+        <p id="pTag">
+          Designation: Electric Drill Operator • (Safety Representative)
+          <br />
+          Reference: Jessica Leroux
+          <br /> Phone: (+27) 82 658 5419
+        </p>
       </div>
     </>
   );
