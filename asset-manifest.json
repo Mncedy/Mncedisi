@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Mncedisi/static/css/main.74720e5f.chunk.css",
-    "main.js": "/Mncedisi/static/js/main.e6f19a73.chunk.js",
-    "main.js.map": "/Mncedisi/static/js/main.e6f19a73.chunk.js.map",
+    "main.js": "/Mncedisi/static/js/main.fd7c1d8f.chunk.js",
+    "main.js.map": "/Mncedisi/static/js/main.fd7c1d8f.chunk.js.map",
     "runtime-main.js": "/Mncedisi/static/js/runtime-main.3f52ee6a.js",
     "runtime-main.js.map": "/Mncedisi/static/js/runtime-main.3f52ee6a.js.map",
     "static/js/2.1b5dbc6b.chunk.js": "/Mncedisi/static/js/2.1b5dbc6b.chunk.js",
     "static/js/2.1b5dbc6b.chunk.js.map": "/Mncedisi/static/js/2.1b5dbc6b.chunk.js.map",
     "index.html": "/Mncedisi/index.html",
-    "precache-manifest.4f8014b2de01f32217fe47e3100b9074.js": "/Mncedisi/precache-manifest.4f8014b2de01f32217fe47e3100b9074.js",
+    "precache-manifest.def41bbe49245beb552365d0d70a12cd.js": "/Mncedisi/precache-manifest.def41bbe49245beb552365d0d70a12cd.js",
     "service-worker.js": "/Mncedisi/service-worker.js",
     "static/css/main.74720e5f.chunk.css.map": "/Mncedisi/static/css/main.74720e5f.chunk.css.map",
     "static/js/2.1b5dbc6b.chunk.js.LICENSE.txt": "/Mncedisi/static/js/2.1b5dbc6b.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.3f52ee6a.js",
     "static/js/2.1b5dbc6b.chunk.js",
     "static/css/main.74720e5f.chunk.css",
-    "static/js/main.e6f19a73.chunk.js"
+    "static/js/main.fd7c1d8f.chunk.js"
   ]
 }
